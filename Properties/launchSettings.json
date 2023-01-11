@@ -1,0 +1,19 @@
+{
+  "profiles": {
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    },
+    "jing.net without arguments": {
+      "commandName": "Project"
+    },
+    "jing.net invalid example": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\marti\\OneDrive\\Documents\\relaxng\\grammar1.rng\r\nC:\\Users\\marti\\OneDrive\\Documents\\relaxng\\grammar1-invalid-sample.xml"
+    },
+    "jing.net valid example": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\marti\\OneDrive\\Documents\\relaxng\\grammar1.rng\r\nC:\\Users\\marti\\OneDrive\\Documents\\relaxng\\grammar1-valid-sample.xml"
+    }
+  }
+}
