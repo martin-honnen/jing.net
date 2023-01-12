@@ -5,6 +5,10 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	<PackAsTool>true</PackAsTool>
+	<ToolCommandName>jing.net</ToolCommandName>
+	<PackageOutputPath>./nupkg</PackageOutputPath>
+	<PackageVersion>2022.5.10.0</PackageVersion>
   </PropertyGroup>
 
 	<ItemGroup>

@@ -40,7 +40,7 @@ public class Driver
 
     private bool timing = false;
     private string encoding = null;
-    private Localizer localizer = new Localizer(typeof(Driver));
+    private Localizer localizer = new Localizer((java.lang.Class)typeof(com.thaiopensource.relaxng.util.ValidationEngine));
 
     public int DoMain(string[] args)
     {
@@ -196,10 +196,10 @@ public class Driver
             if (loadedPatternTime < 0)
                 loadedPatternTime = endTime;
             eh.print(localizer.message("elapsed_time",
-                     new Object[] {
-                               loadedPatternTime - startTime,
-                               endTime - loadedPatternTime,
-                               endTime - startTime
+                     new java.lang.Object[] {
+                               new java.lang.Long(loadedPatternTime - startTime),
+                               new java.lang.Long(endTime - loadedPatternTime),
+                               new java.lang.Long(endTime - startTime)
                              }));
         }
         if (hadError)

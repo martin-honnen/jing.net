@@ -14,6 +14,18 @@
     "jing.net valid example": {
       "commandName": "Project",
       "commandLineArgs": "C:\\Users\\marti\\OneDrive\\Documents\\relaxng\\grammar1.rng\r\nC:\\Users\\marti\\OneDrive\\Documents\\relaxng\\grammar1-valid-sample.xml"
+    },
+    "jing.net invalid example with timing": {
+      "commandName": "Project",
+      "commandLineArgs": "-t\r\nC:\\Users\\marti\\OneDrive\\Documents\\relaxng\\grammar1.rng\r\nC:\\Users\\marti\\OneDrive\\Documents\\relaxng\\grammar1-invalid-sample.xml"
+    },
+    "validate XSLT 3 with timing": {
+      "commandName": "Project",
+      "commandLineArgs": "-t\r\n-c\r\nhttps://www.w3.org/TR/xslt-30/schema-for-xslt30.rnc\r\nhttps://github.com/martin-honnen/martin-honnen.github.io/raw/master/xslt/processorTestHTML5Xslt3InitialTempl.xsl"
+    },
+    "invalid XSLT 3 with timing": {
+      "commandName": "Project",
+      "commandLineArgs": "-t\r\n-c\r\nhttps://www.w3.org/TR/xslt-30/schema-for-xslt30.rnc\r\nhttps://github.com/martin-honnen/martin-honnen.github.io/raw/master/xslt/invalid-xslts-for-testing-validation/sheet3.xsl"
     }
   }
 }
